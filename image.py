@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-#改变
+
 def blur_image(data, w):
     num_patches, height, width, channel = data.shape
     batch_q = np.zeros((num_patches, height, width, channel))
