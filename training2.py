@@ -23,7 +23,7 @@ tf.app.flags.DEFINE_integer('num_h5_file', 100,
                             """number of training h5 files.""")
 tf.app.flags.DEFINE_integer('num_patches', 160,
                             """number of patches in each h5 file.""")
-tf.app.flags.DEFINE_integer('learning_rate', 0.001,
+tf.app.flags.DEFINE_float('learning_rate', 0.001,
                             """learning rate.""")
 tf.app.flags.DEFINE_integer('epoch', 30,
                             """epoch.""")
